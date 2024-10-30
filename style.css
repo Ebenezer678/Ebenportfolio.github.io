@@ -1,0 +1,448 @@
+#friday {
+   color: red;
+   background-color: peachpuff;
+   padding: 50px;
+   margin: 30px;
+   text-align: center;
+}
+
+
+.party {
+  color: red;
+  background-color: cadetblue;
+  padding: 50px;
+  margin: 30px;
+  text-align: center;    
+}
+.today {
+  color: blue;
+  background: burlywood;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 50px;
+  margin: 70px"
+
+}
+.student {
+  border: solid 1px red;
+  border-radius: 8px;
+  width: 100%
+}
+/* 
+.student th, .student tr {
+  background-color: green;
+  color: white;
+  font: bold
+}
+ 
+.student th:hover {
+  background-color: rgb(158, 168, 158);
+  color: white;
+}
+
+td {
+  background-color: grey;
+  color: white
+}
+
+td:hover {
+background-color: rgb(199, 192, 192);
+color: black
+} */
+
+.phone {
+    padding: 60px;
+    margin: 60px;
+    text-align: center;
+    font: bold;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border-color: orangered;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 16px;
+    background-color: aqua;
+    background-image: url(image/OIP.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+  
+  .cardp{
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px;
+  }
+  img{
+    border: 1px solid green;
+    border-radius: 10px
+  }
+
+  .Eben {
+      padding: 60px;
+      margin: 60px;
+      text-align: center;
+      font: bold;
+      font-size: 18px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: white;
+      border-color: orangered;
+      border-style: solid;
+      border-width: 6px;
+      border-radius: 16px;
+      background-color: aqua;
+      background-image: url(image/pexels-tima-miroshnichenko-6693648.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      }
+
+      .Eben:hover {
+        background-image: url(image/Playground\ stock\ image_\ Image\ of\ background\,\ curved\,\ area\ -\ 6847473.jpeg);
+      }
+
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 40rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+.card:hover {
+  transform: translate(-10px);
+  }
+
+
+.card-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  text-decoration: none;
+  font-size: 16px;
+}
+.card-button:hover{
+  background-color: #2980b9;
+}
+
+
+.grren{
+  display: flex;
+  padding: 10px;
+}
+
+
+.AScard {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: calc(20.333% - 10px);
+  text-align: center;
+}
+
+.AScard:hover {
+  transform: scale(1.05);
+}
+
+.card-img {
+  width: 150px;
+  height: 150px;
+  border-bottom: 2px solid #eaeaea;
+}
+
+.card-tittle {
+  font-size: 1.5rem;
+  margin: 15px;
+  color: #333;
+}
+
+.card-description {
+  font-size: 1rem;
+  margin: 0 15px 15px;
+  color: #666;
+}
+
+.card-button {
+  display: inline-block;
+  margin: 0 15px 15px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.card-button:hover {
+  background-color: #0056b3;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #444;
+}
+
+div > p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 20px;
+}
+
+img.card-img {
+  margin-top: 20px;
+  border-radius: 8px;
+  width: 150px;
+  height: 150px;
+}
+
+
+.img{
+  width: 10rem;
+  height: 10rem;
+} 
+.card-txt{
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+   text-align: center;
+   width: 40px;
+   height: 40px;
+}
+.flex {
+  display: flex
+}
+
+#customers {
+  font-family: Arial, Helvetica, Sans-serif;
+  border-collapse: collapse; 
+  width: 100%
+}
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers tr:hover {background-color: #ddd;}
+
+#customers th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: #04aa6d
+}
+
+img {
+  /* position: absolute; */
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  float: right;
+}
+
+.zindex {
+  position: absolute;
+  background-color: rgb(0, 140, 255);
+  color: #fff;
+  opacity: 0.9;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color: rgba (0, 0, 0, 0.5);
+ }
+
+/* button{
+  background-color: rgb(255, 0, 0);
+  color: rgb(0, 0, 0);
+  padding: 10px 20pz;
+  opacity: 0.5;
+  border: none;
+  border-radius: 5px;
+  /* transition: background-color 3.5s ease; */
+  /* transition: width 0.5s ease-in-out, height 0.5s ease-in-out;  */}
+
+  button:hover {
+ opacity: 1;
+  padding: 20px 30px;
+}
+
+.learnmore {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 150px;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.4s ease;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1)
+  }
+}
+
+.learnmore:hover {
+  border-radius: 20px;
+  background-color: #ffffff;
+  color:rgb(255, 0, 0);
+  border: 2px rgb(255,0,0);
+
+}
+
+.submit {
+  background-color: rgb(0, 140, 255);
+  color: rgb(255, 255, 255);
+  padding: 15px 40px;
+  border: none;
+  border-radius: 60px;
+  position: relative; 
+  overflow: hidden;
+  outline: none;
+  transition: background-color 0.4s transform 0.4s;
+}
+
+.submit::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  width: 300px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.5);
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+  transition: transform 0.6s ease-out;
+  z-index: 0; 
+}
+
+.submit:hover {   
+  border-radius: 2px;
+  transform: scale(1.05);
+}
+
+.submit:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.submit:active::before {
+  transition: none;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.readmore1 {
+  background-color: white;
+  color: red;
+  padding: 10px 20px;
+  border: 2px solid red;
+  border-radius: 60px;
+  transition: opacity 0.4s linear;
+  cursor: pointer;
+  transition: transform 0.5s, background-color 0.5s;
+  animation: fadeIn 5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.readmore1:hover {
+  background-color: rgb(255, 94, 0);
+  color:white;
+  transform: rotate(360deg) scale(1.2)
+}
+
+.signin {
+  background-color: rgb(136, 255, 0);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 60px;
+  transition: opacity 0.4s linear;
+}
+
+.signin:hover {
+  border-radius: 20px;
+    background-color: #ffffff;
+    color: #b3c214;
+    border: 2px #68970f solid;
+}
+
+.login {
+  background-color: rgb(255, 174, 0);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 2px solid red;
+  border-radius: 60px;
+  transition: transform 0.5s, background-color 0.5s;
+  cursor: pointer;
+  animation: fadeIn 5s ease-in-out;
+}
+
+@keyframes fadeIn {
+0% {
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+}
+}
+
+.login:hover {
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: red;
+  transform: rotate(360deg) scale(1.2)
+}
+
+.send {
+  background-color: rgb(173, 6, 118);
+  color: rgb(255, 255, 255);
+  padding: 15px 40px;
+  border: none;
+  border-radius: 60px;
+  position: relative; 
+  overflow: hidden;
+  outline: none;
+  transition: background-color 0.4s transform 0.4s;
+}
+.send::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  width: 300px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.5);
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+  transition: transform 0.6s ease-out;
+  z-index: 0;
+}
+.send:hover {   
+  border-radius: 2px;
+  transform: scale(1.05);
+}
+
+.send:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.send:active::before {
+  transition: none;
+  transform: translate(-50%, -50%) scale(0);
+}

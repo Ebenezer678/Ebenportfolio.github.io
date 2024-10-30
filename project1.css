@@ -1,0 +1,172 @@
+.Navigationbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(7, 26, 199);
+    padding: 5px 10px;
+}
+.logo {
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+}
+.Navheader {
+    list-style: none;
+    display: flex; 
+    color: #fff;
+}
+.Navheader li {
+    margin: 0 15px;
+}
+.Navheader a {
+    color: rgb(241, 241, 241);
+    text-decoration: none;
+    font-size: 20px; 
+    transition: color 0.4s ease;
+}
+.Navheader a:hover {
+    color: rgb(2, 2, 34)
+}
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: transform 0.3s ease;
+}
+
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    height: 100vh;     
+   }
+  
+   .hero-text {
+       padding: 20px;
+   }
+  
+   .hero-text h1 {
+       font-size: 4rem;
+       margin-bottom: 20px;
+       color: #333;
+   }
+  
+   .hero-text p {
+       font-size: 1.2rem;
+       margin-bottom: 20px;
+       color: #333;
+   }
+  
+   .hero-text .btn {
+       padding: 10px 20px;
+       background-color: rgb(3, 36, 3);
+       color: #fff;
+       text-decoration: none;
+       border-radius: 5px;
+   }
+  
+   .hero-image {
+       width: 90%;
+       height: 70%;
+       border-radius: 10px;
+   }
+
+.flex {
+    background-color: #ffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 300px;
+    margin: 3rem;
+    text-align: center;
+    transition: transform 0.3S ease;
+    width: 20rem;
+    height: 20rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("./image/top-view-man-using-his-laptop.jpg");
+    }
+
+    .flex2{
+        background-color: rgb(7, 26, 199);
+        color: #fff;
+        height: 10rem;
+        width: 10rem;
+        margin-top: -1.3rem;
+        border-radius: 8px;
+    }
+.cardimg {
+    width: 100%;
+    height: auto;
+    }
+.sub2 {
+    padding: 10px;
+    margin: 2rem;
+}
+.sub-content {
+    /* font-size: 24px; */
+    margin: 0 0 30px;
+    color: #333;
+}
+.sub-content1 {
+    /* font-size: 16px; */
+    color: #666;
+    /* margin: 0 0 20px;   */
+}
+.card-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.display {
+    display: flex;    
+}
+.last-part{
+    display: flex;
+    min-height: 50vh;
+}
+.bg{
+    display: flex;
+    background-color: rgb(7, 26, 199);
+    margin: 2rem;
+}
+.card-terms{
+    background-color: #ffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 10rem;  
+    margin: 1rem;
+    padding: 10px;
+    text-align: center; 
+}
+.terms{
+    margin: 4rem;
+}
+.txt{
+    margin: 4rem;
+}
+.join-ing{
+    width: 20rem;
+    height: 20rem;
+    margin: 3rem;
+}
+.join{
+    display: flex;
+}
+.join2{
+    background-color: rgb(7, 26, 199);
+    padding: 3rem;
+    color: white;
+}
